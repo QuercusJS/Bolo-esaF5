@@ -17,3 +17,16 @@ header {
     padding: 16px 20px;
     background: var(--dark-soft);
 }
+.portada{
+    width: 100%;
+    height: 50vh;
+    background-image: url('./img/imgLostArk.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    padding: 20px;
+}
