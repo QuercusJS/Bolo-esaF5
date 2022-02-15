@@ -1,3 +1,35 @@
 header{
-    background-color: #212C4A;
+    /* Menu */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+
+
+width: 375px;
+height: 64px;
+left: calc(50% - 375px/2);
+top: 0px;
+
+/* BlackSoftLogo */
+
+background: #212C4A;
+}
+
+.lostArk{
+    /* Rectangle 1 */
+
+
+
+width: 375px;
+height: 421px;
+left: 0px;
+top: 0px;
+
+background: url(thumb-1920-920115.jpg);
 }
