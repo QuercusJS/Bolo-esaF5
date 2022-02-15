@@ -1,8 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-soft: #212C4A;
+    --blue: #0179FD;
+    --white: #F4F4F4;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 20px;
-    /* BlackSoftLogo */
-    background: #212C4A;
+    background: var(--dark-soft);
 }
