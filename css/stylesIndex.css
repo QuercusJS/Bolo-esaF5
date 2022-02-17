@@ -56,12 +56,12 @@ header {
 }
 
 .menu li .focus {
-  border: var(--white) solid 3px;
+    border: var(--white) solid 3px;
 }
 
 .menu li a:hover {
-  background: var(--white);
-  color: var(--blue);
+    background: var(--white);
+    color: var(--blue);
 }
 
 main {
@@ -83,6 +83,13 @@ main {
     font-family: 'Bebas Neue', cursive;
 }
 
+.logo{
+    height: 15vh;
+    padding-bottom: .5%;
+    display: flex;
+    justify-content: center;
+}
+
 .descripcion{
     color: black;
     font-family: 'Bebas Neue', cursive;
@@ -91,7 +98,7 @@ main {
 
 .paragrafo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 100%;
     padding: 5%;
     margin: auto;
     text-align: center;

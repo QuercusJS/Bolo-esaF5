@@ -12,7 +12,7 @@ text-transform: uppercase;
 }
 
 .buyimage{
- margin: 20px 0px ;
+    margin: 20px 0px ;
 }
 
 .logos{
@@ -23,7 +23,7 @@ text-transform: uppercase;
 }
 
 .description{
-  
+
 }
 
 .footerInfo{
@@ -60,5 +60,4 @@ text-transform: uppercase;
 
 .info_product{
     padding: 40px 20px ;
-
 }
