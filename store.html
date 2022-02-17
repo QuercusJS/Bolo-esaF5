@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>buy page</title>
+    <title>Store</title>
     <link rel="stylesheet" href="./css/stylesStore.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-            <img src="/svg/logoMasNombre.svg">
-            <section class="titulo">
-                <h1>CATALOGO</h1>
-            </section>
-            <img src="/svg/menu.svg">
+        <div id="logo">
+            <img src="svg/logoMasNombre.svg">
+        </div>
+        <img src="svg/menu.svg" id="icon-menu" class="menu_burguer">
+        <nav id="menu" class="no-mobile menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="product.html" class="focus">Destacamos</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section class="image">
-        <img src="./img/gameMinecraft.png">
-        <img src="./img/gameFallguys.png">
-        <img src="./img/gameFortnite.png">
-    </div>
-
-    </section>
+        <h1>NOVEDADES</h1>
+        <section class="games">
+            <img class="gameCover" src="./img/gameMinecraft.png">
+            <img class="gameCover" src="./img/gameFallguys.png">
+            <img class="gameCover" src="./img/gameFortnite.png">
+        </section>
     </main>
 
     <footer>
