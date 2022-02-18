@@ -44,7 +44,7 @@ text-transform: uppercase;
 .portada{
     width: 100%;
     height: 50vh;
-    background-image: url('/img/imgLostArk.png');
+    background-image: url('../img/imgLostArk.png');
     background-size: cover;
     background-position: center;
     display: flex;
